@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="185" gr:y="105" id="sv1#page1" name="Institutes">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="185" gr:y="105" id="sv1#page1" name="Institutes" linkOrder="sv1#page1#ln21">
   <ContentUnits>
     <PowerIndexUnit id="sv1#page1#pwu4" name="Institutes" gr:x="0" gr:y="0" sortable="true" checkable="false" useCountQuery="false" entity="ent5" linkOrder="sv1#page1#pwu4#ln7">
       <Link id="sv1#page1#pwu4#ln7" name="Velg Studie" to="sv1#page7#pwu6" automaticCoupling="true" type="normal" validate="true"/>
@@ -48,4 +48,5 @@
       <layout:Cell/>
     </layout:Row>
   </layout:Grid>
+  <Link id="sv1#page1#ln21" name="Flow21" to="sv1#miu3" automaticCoupling="true" type="normal" validate="true"/>
 </Page>

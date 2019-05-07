@@ -1,4 +1,4 @@
-<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#page5" name="Stands" gr:x="535" gr:y="95">
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#page5" name="Stands" gr:x="535" gr:y="95" linkOrder="sv1#page5#ln18 sv1#page5#ln19">
   <layout:Grid>
     <layout:Row>
       <layout:Cell colspan="12"/>
@@ -24,4 +24,6 @@
       <Link id="sv1#page5#dau2#ln12" name="Institutt" to="sv1#page1#pwu4" automaticCoupling="true" type="normal" validate="true"/>
     </DataUnit>
   </ContentUnits>
+  <Link id="sv1#page5#ln18" name="Flow18" to="sv1#miu1" automaticCoupling="true" type="normal" validate="true"/>
+  <Link id="sv1#page5#ln19" name="Flow19" to="sv1#miu4" automaticCoupling="true" type="normal" validate="true"/>
 </Page>
