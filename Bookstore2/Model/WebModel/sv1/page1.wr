@@ -1,0 +1,30 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="100" gr:y="150" id="sv1#page1" name="ProductCategories">
+  <ContentUnits>
+    <PowerIndexUnit gr:x="0" gr:y="0" id="sv1#page1#pwu1" name="CatogoriList" sortable="true" checkable="false" useCountQuery="false" entity="ent1" displayAttributes="ent1#att19" linkOrder="sv1#page1#pwu1#ln5">
+      <Link id="sv1#page1#pwu1#ln5" name="Velg" to="sv1#page2#pwu2" type="normal" validate="true">
+        <LinkParameter id="sv1#page1#pwu1#ln5#par1" name="oid_current oid" source="data[].ent1#att18" target="sv1#page2#pwu2.current.ent9#att12"/>
+      </Link>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page1#pwu1">
+          <layout:Attribute attribute="ent1#att19"/>
+          <layout:Link link="sv1#page1#pwu1#ln5"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

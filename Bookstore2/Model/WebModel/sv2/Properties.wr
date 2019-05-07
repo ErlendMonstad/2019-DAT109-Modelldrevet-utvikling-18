@@ -1,0 +1,9 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv2" name="ShoppingCart" homePage="sv2#page4">
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="320" gr:y="300" id="sv2#miu1" action="true" name="Update The Quantities" moduleId="mov1#opm1">
+      <OKLink id="sv2#miu1#oln4" name="OKFlow4" to="sv2#page4" automaticCoupling="true" gr:bendpoints="-144,34,111,-1"/>
+      <OKLink id="sv2#miu1#oln5" name="OKFlow5" to="sv2#page5" automaticCoupling="true"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="285" gr:y="450" id="sv2#miu2" action="true" name="Empty the Cart" moduleId="mov1#opm3"/>
+  </OperationUnits>
+</SiteView>

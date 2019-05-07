@@ -1,0 +1,49 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="635" gr:y="170" id="sv1#page3" name="Product" linkOrder="sv1#page3#ln10 sv1#page3#ln11">
+  <ContentUnits>
+    <DataUnit gr:x="0" gr:y="0" id="sv1#page3#dau1" name="ProductDetail" entity="ent9" displayAttributes="ent9#att13 ent9#att14 ent9#att15" linkOrder="sv1#page3#dau1#ln4">
+      <Selector id="sv1#page3#dau1#su1" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#page3#dau1#su1#kcond1" name="KeyCondition1" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#page3#dau1#ln4" name="Buy Item" to="sv1#miu3" type="normal" automaticCoupling="true" validate="true"/>
+    </DataUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page3#dau1">
+          <layout:Attribute attribute="ent9#att13"/>
+          <layout:Attribute attribute="ent9#att14"/>
+          <layout:Attribute attribute="ent9#att15"/>
+          <layout:Link link="sv1#page3#dau1#ln4"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#page3#ln10" name="Products" to="sv1#page2#pwu2" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="-78,32,82,-3"/>
+  <Link id="sv1#page3#ln11" name="Categories" to="sv1#page1#pwu1" type="normal" automaticCoupling="true" validate="true"/>
+</Page>

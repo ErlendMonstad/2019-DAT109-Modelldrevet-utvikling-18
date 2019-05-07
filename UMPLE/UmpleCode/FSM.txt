@@ -1,0 +1,41 @@
+class VisitorRegistration {
+  flow {
+    
+    
+    NotRegistered {
+        writeInPhoneNumber -> Registered;
+    }
+    
+        Registered {
+        clickLinkInSMS -> LoggedIn;
+    }
+    
+    LoggedIn {
+    
+
+    }
+
+  }
+
+}
+
+
+
+class VisitorVoting {
+  
+  flow {
+    VisitStand{
+      scanQRCode -> VotingSite;
+    }
+
+    VotingSite{
+      clickVoteButton -> VotedOnStand;
+    }
+
+    VotedOnStand {
+            
+    }
+    
+  }
+  
+}

@@ -1,0 +1,48 @@
+class Expo
+{
+    Int expoId;
+   1 -- * Stand;
+}
+
+
+class Visitor{
+  Integer visitorId;
+}
+
+
+class Vote{
+    Int voteId;
+    Int voteValue;
+
+   * -- 1 Stand;
+   * -- 1 Visitor;
+}
+
+
+class Admin{
+    Int adminId;
+    String username;
+    String hashPassword;
+}
+
+
+class Institute {
+    String instituteId;
+   1 -- * Study;
+}
+
+
+class Stand {
+  String standId;
+  String name;
+}
+
+
+class Study {
+    String studyId;
+ 1 -- * Stand;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="375" gr:y="180" id="sv1#page2" name="ProductList">
+  <ContentUnits>
+    <PowerIndexUnit gr:x="0" gr:y="0" id="sv1#page2#pwu2" name="ProductList" sortable="true" checkable="false" useCountQuery="false" entity="ent9" displayAttributes="ent9#att13" linkOrder="sv1#page2#pwu2#ln6">
+      <Link id="sv1#page2#pwu2#ln6" name="Velg" to="sv1#page3#dau1" type="normal" validate="true">
+        <LinkParameter id="sv1#page2#pwu2#ln6#par2" name="oid_KeyCondition1 [oid]" source="data[].ent9#att12" target="sv1#page3#dau1#su1#kcond1.ent9#att12"/>
+      </Link>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page2#pwu2">
+          <layout:Attribute attribute="ent9#att13"/>
+          <layout:Link link="sv1#page2#pwu2#ln6"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#page2#ln12" name="Categories" to="sv1#page1#pwu1" type="normal" automaticCoupling="true" validate="true" gr:bendpoints="-120,-43,105,67"/>
+</Page>
